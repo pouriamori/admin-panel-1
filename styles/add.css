@@ -1,0 +1,72 @@
+.bg-purple {
+  background-color: #9694ff !important;
+}
+
+.bg-blue {
+  background-color: #57caeb !important;
+}
+
+.bg-green {
+  background-color: #5ddab4 !important;
+}
+
+.bg-red {
+  background-color: #ff7976 !important;
+}
+
+
+.circle-3 {
+  width: 3rem !important;
+  height: 3rem !important;
+}
+
+.circle-5 {
+  width: 5rem !important;
+  height: 5rem !important;
+}
+
+.h-100vh {
+  height: 100vh !important;
+}
+
+.fixed {
+  position: sticky !important;
+  top: 0;
+  right: 0;
+}
+
+.bg-hover-light:hover {
+  background-color: silver;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.sidebar-mobile {
+  height: 100%;
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  width: 17%;
+}
+
+@media screen and (max-width:768px) {
+  .sidebar-mobile {
+    position: fixed !important;
+    height: 100vh;
+    width: 60%;
+    top: 0;
+    right: 0;
+    z-index: 1000 !important;
+    box-shadow: 0px 0px 10rem rgb(0 0 0 / 70%) !important;
+  }
+
+  .sidebar-button-mobile {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    width: fit-content !important;
+    z-index: 1001 !important;
+  }
+}
